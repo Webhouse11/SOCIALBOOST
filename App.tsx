@@ -8,7 +8,6 @@ import About from './pages/public/About';
 import Services from './pages/public/Services';
 import Packages from './pages/public/Packages';
 import Contact from './pages/public/Contact';
-import Blog from './pages/public/Blog';
 import Dashboard from './pages/admin/Dashboard';
 import PostManager from './pages/admin/PostManager';
 import Settings from './pages/admin/Settings';
@@ -25,7 +24,6 @@ const App: React.FC = () => {
             <Route path="services" element={<Services />} />
             <Route path="packages" element={<Packages />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="blog" element={<Blog />} />
           </Route>
 
           {/* Admin Routes */}
